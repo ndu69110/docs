@@ -1,0 +1,118 @@
+        Chapitre 1 : Introduction à Linux & Bash
+        Sommaire
+        - A l'abordage
+        - Qu'est ce que Linux et pourquoi l'apprendre ?
+        - Installation d'Ubuntu avec une machine virtuelle
+        - Installation d'Ubuntu en dual boot
+
+        Chapitre 2 : Présentation du terminal
+        Sommaire
+        - La commande history et quelques raccourcis
+        - Ouvrir le terminal
+        - Première commande
+        - Composition d'une commande
+        - Terminal et shell
+        - Présentation du manuel
+        - Utilisation du manuel et de help
+
+        Chapitre 3 : Le système de fichiers
+        Sommaire
+        - Créer des fichiers, des dossiers et des liens
+        - L’autocomplétion des commandes et des chemins d'accès
+        - Le développement des noms de fichiers
+        - Supprimer des fichiers et des dossiers
+        - Se repérer et examiner le contenu des dossiers
+        - Copier et déplacer des fichiers et des dossiers
+        - Introduction au système de fichiers
+        - Naviguer dans le système de fichiers
+
+        Chapitre 4 : Manipuler les flux standards
+        Sommaire
+        - Les commandes tee et xargs
+        - Les flux de redirection
+        - Les codes de retour
+        - Les flux standards : entrées et sorties des processus
+        - Branchement de commandes avec les pipes
+        - Les enchaînements de commande
+
+        Chapitre 5 : Installer des programmes
+        Sommaire
+        - Obtenir des informations sur les paquets avec APT
+        - Utiliser APT pour installer, mettre à jour et supprimer des paquets
+        - Installer un programme avec apt et apt-get
+        - Utiliser le gestionnaire de paquets snap
+        - Le gestionnaire de paquets snap
+
+        Chapitre 6 : Lire, modifier et compresser des fichiers
+        Sommaire
+        - Les extensions de fichier et la commande file
+        - Compresser des fichiers
+        - L'éditeur de texte nano
+        - Lire efficacement des fichiers avec less, tail et head
+        - Créer des archives
+
+        Chapitre 7 : Rechercher, trier et filtrer des fichiers
+        Sommaire
+        - Localiser un fichier rapidement avec locate
+        - La commande awk
+        - Les commandes rev, tac, cut et uniq
+        - Trier des résultats avec sort
+        - Filtrer des données avec grep
+        - La commande sed
+        - Utilisations avancées de la commande find
+        - Présentation de la commande find
+
+        Chapitre 8 : Les processus
+        Sommaire
+        - Les daemons ou services
+        - Afficher la liste des processus en temps réel avec top
+        - Visualiser un snapshot des processus avec ps et pstree
+        - Envoyer des signaux aux processus
+        - Exécuter des processus en arrière plan
+        - Introduction aux processus
+
+        Chapitre 9 : Les permissions
+        Sommaire
+        - Ajouter et supprimer des utilisateurs
+        - Introduction aux permissions
+        - Les groupes en détails
+        - Modifier les permissions de fichiers
+        - Fonctionnement des permissions
+        - Modifier les utilisateurs
+        - Modifier les propriétaires de fichiers
+
+        Chapitre 10 : Les scripts shell
+        Sommaire
+        - Les développements et les inhibitions
+        - Tests et expressions conditionnelles
+        - Obtenir des données entrées par l'utilisateur
+        - Les paramètres et les variables
+        - Les fonctions
+        - Les opérations arithmétiques
+        - Les branchements conditionnels
+        - Les structures itératives
+        - Exemples
+        - Introduction aux scripts shell
+
+        Chapitre 11 : Modifier son environnement
+        Sommaire
+        - Introduction aux variables environnement
+        - Les fichiers d'environnement
+        - Les commandes env, printenv
+        - Les alias et variable PS1
+
+        Chapitre 12 : Les tâches cron et anacron
+        Sommaire
+        - anacron
+        - Syntaxe pour la crontab
+        - Exemple de crontab
+        - Introduction aux cron
+
+        Chapitre 13 : Le protocole SSH
+        Sommaire
+        - Connexion à un serveur
+        - Configuration sécurisée du serveur
+        - Introduction au protocole SSH
+        - Protéger ses clés privés et configurer des options SSH sur le client
+        - Développement distant avec SSH et VS Code
+        - Les paires de clé

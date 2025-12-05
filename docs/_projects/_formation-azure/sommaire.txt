@@ -1,0 +1,130 @@
+        Chapitre 1 : Introduction au cloud et à Azure
+        Sommaire
+        - A l'abordage !
+        - Introduction au cloud
+        - Introduction à Azure
+        - Introduction aux certifications Azure
+
+        Chapitre 2 : Introduction aux protocoles réseaux
+        Le réseau Internet
+        - Présentation du modèle OSI et introduction à TCP/IP
+        - L'adressage réseau avec le protocole Internet (IP)
+        - Le transport sur le réseau avec les protocoles TCP, UDP et QUIC
+        - La couche applicative avec les protocoles HTTP, SMTP et FTP
+        - Le protocole DNS et serveurs DNS
+        - Sécurisation des échanges avec les protocoles SSL et TLS
+
+        Chapitre 3 : Concepts du cloud
+        Sommaire
+        - Notions clés pour le cloud
+        - Le modèle de responsabilité partagée
+        - Le modèle basé sur la consommation
+        - Autres avantages du cloud
+
+        Chapitre 4 : Principaux composants d'Azure
+        Sommaire
+        - Créer un compte Azure
+        - L'interface Azure
+        - Azure cloud shell, Azure PowerShell et Azure CLI
+        - Infrastructure physique d'Azure en détail
+        - Infrastructure de gestion : organisation et hiérarchie des ressources
+
+        Chapitre 5 : Les services de calcul Azure
+        Sommaire
+        - Présentation des services de calcul Azure
+        - Présentation des Machines Virtuelles Azure
+        - Création d'une première VM Linux et connexion SSH
+        - Création d'une première VM Windows et connexion RDP
+        - Mise à l'échelle automatique (Virtual Machine Scale Sets)
+        - Garantir la haute disponibilité (Availability Sets)
+        - Introduction à Azure Virtual Desktop (AVD)
+        - Héberger des applications web avec Azure App Service
+        - Créer une application web sur App Service
+        - Le calcul serverless avec Azure Functions
+        - Introduction aux conteneurs
+
+        Chapitre 6 : Les services de réseau Azure
+        Sommaire
+        - Introduction aux réseaux virtuels Azure (VNet)
+        - Sécuriser vos réseaux avec les groupes de sécurité (NSG)
+        - Créer un réseau virtuel (VNet) sur Azure
+        - Connecter des réseaux virtuels avec le Peering (VNet Peering)
+        - Gérer la résolution de noms avec Azure DNS
+        - Les réseaux privés virtuels Azure
+        - La connexion privée dédiée avec Azure ExpressRoute
+        - Sécuriser l'accès aux services avec les points de terminaison privés
+
+        Chapitre 7 : Les service de stockage Azure
+        Sommaire
+        - Introduction aux services de stockage Azure
+        - Stocker des objets avec Azure Blob Storage
+        - Optimiser les coûts avec les niveaux de stockage Blob
+        - Créer un compte de stockage
+        - Les disques managés pour les machines virtuelles
+        - Créer un conteneur et téléverser des fichiers
+        - Partager des fichiers dans le cloud avec le partage de fichiers
+        - Stockage NoSQL avec Azure Table et Azure Queue
+        - Protéger vos données avec les options de redondance
+        - Les outils de migration de données
+        - L'explorateur de stockage Azure
+        - Le stockage haute performance
+        - Les outils de déplacement de fichiers
+
+        Chapitre 8 : Gestion des accès et sécurité sur Azure
+        Sommaire
+        - Définir identité, authentification et autorisation
+        - Introduction à Microsoft Entra ID
+        - Les méthodes d’authentification Azure
+        - Le modèle Confiance Zéro
+        - L'accès conditionnel
+        - Les identités externes
+        - Le contrôle d'accès en fonction du rôle
+        - Le modèle de la Défense en profondeur
+        - Microsoft Defender
+
+        Chapitre 9 : Projet 1 : déploiement haute disponibilité avec Azure Front Door
+        Sommaire
+        - Introduction au projet
+        - Préparation de l'environnement
+        - Code de l'application et déploiement
+        - Routage global avec Azure Front Door
+
+        Chapitre 10 : Gestion des coûts sur Azure
+        Sommaire
+        - Qu'est-ce que la gestion des coûts ?
+        - Les abonnements dans la gestion des coûts
+        - La calculatrice de prix
+        - L'outil analyse des coûts (Cost Management)
+        - Gestion efficace des coûts avec les balises
+
+        Chapitre 11 : Gouvernance et conformité avec Azure
+        Sommaire
+        - Introduction à la gouvernance et à la conformité
+        - Le service Stratégie (Azure Policy)
+        - Les verrous de ressource
+        - Introduction à Microsoft Purview
+        - Exercice : créer un verrou de ressource
+        - Le portail d’approbation de services
+
+        Chapitre 12 : Gestion et déploiement des ressources avec Azure
+        Sommaire
+        - Introduction à Azure Arc
+        - Le service Azure Resource Manager (ARM)
+        - Décrire l’infrastructure en tant que code (IaC)
+
+        Chapitre 13 : Monitoring dans Azure
+        Sommaire
+        - Introduction à Advisor
+        - Azure Service Health
+        - Azure Monitor
+
+        Chapitre 14 : Projet 2 : projet cloud complet
+        Sommaire
+        - Architecture, Gouvernance et Planification
+        - Déploiement de l'Infrastructure de Base
+        - Déploiement des applications et configuration du stockage
+        - Sécurité, Identité et Contrôle d'Accès
+        - Sécurisation avancée avec les points de terminaison privés
+        - Automatisation avec Azure Functions
+        - Upload et affichage des images
+        - Routage Global, Surveillance et Opérations

@@ -316,13 +316,75 @@ nav:
     - 'Introduction': _projects/introduction/introduction.md
     - 'Sommaire': _projects/sommaire/sommaire.md
     - 'Formation Azure': 
-      - 'Chapter 1': _projects/formation-azure/chapitre01/azure-chap1.md
-      - 'Chapter 2': _projects/formation-azure/chapitre02/azure-chap2.md
-      - 'Chapter 2': _projects/formation-azure/chapitre03/azure-chap3.md
+      - 'Chaptitre 1': _projects/_formation-azure/azure-chap01.md
+      - 'Chaptitre 2': _projects/_formation-azure/azure-chap02.md
+      - 'Chaptitre 3': _projects/_formation-azure/azure-chap03.md
+      - 'Chaptitre 4': _projects/_formation-azure/azure-chap04.md
+      - 'Chaptitre 5': _projects/_formation-azure/azure-chap05.md
+      - 'Chaptitre 6': _projects/_formation-azure/azure-chap06.md
+      - 'Chaptitre 7': _projects/_formation-azure/azure-chap07.md
+      - 'Chaptitre 8': _projects/_formation-azure/azure-chap08.md
+      - 'Chaptitre 9': _projects/_formation-azure/azure-chap09.md
+      - 'Chaptitre 10': _projects/_formation-azure/azure-chap10.md
+      - 'Chaptitre 11': _projects/_formation-azure/azure-chap11.md
+      - 'Chaptitre 12': _projects/_formation-azure/azure-chap12.md
+      - 'Chaptitre 13': _projects/_formation-azure/azure-chap13.md
+      - 'Chaptitre 14': _projects/_formation-azure/azure-chap14.md
+    - 'Formation Bash': 
+      - 'Chaptitre 1': _projects/_formation-bash/bash-chap01.md
+      - 'Chaptitre 2': _projects/_formation-bash/bash-chap02.md
+      - 'Chaptitre 3': _projects/_formation-bash/bash-chap03.md
+      - 'Chaptitre 4': _projects/_formation-bash/bash-chap04.md
+      - 'Chaptitre 5': _projects/_formation-bash/bash-chap05.md
+      - 'Chaptitre 6': _projects/_formation-bash/bash-chap06.md
+      - 'Chaptitre 7': _projects/_formation-bash/bash-chap07.md
+      - 'Chaptitre 8': _projects/_formation-bash/bash-chap08.md
+      - 'Chaptitre 9': _projects/_formation-bash/bash-chap09.md
+      - 'Chaptitre 10': _projects/_formation-bash/bash-chap10.md
+      - 'Chaptitre 11': _projects/_formation-bash/bash-chap11.md
+      - 'Chaptitre 12': _projects/_formation-bash/bash-chap12.md
+      - 'Chaptitre 13': _projects/_formation-bash/bash-chap13.md
     - 'Formation Docker': 
-      - 'Chapter 1': _projects/formation-docker/chapitre01/docker-chap01.md
-      - 'Chapter 2': _projects/formation-docker/chapitre02/docker-chap02.md
-  
+      - 'Chaptitre 1': _projects/_formation-docker/docker-chap01.md
+      - 'Chaptitre 2': _projects/_formation-docker/docker-chap02.md
+      - 'Chaptitre 3': _projects/_formation-docker/docker-chap03.md
+      - 'Chaptitre 4': _projects/_formation-docker/docker-chap04.md
+      - 'Chaptitre 5': _projects/_formation-docker/docker-chap05.md
+      - 'Chaptitre 6': _projects/_formation-docker/docker-chap06.md
+      - 'Chaptitre 7': _projects/_formation-docker/docker-chap07.md
+      - 'Chaptitre 8': _projects/_formation-docker/docker-chap08.md
+      - 'Chaptitre 9': _projects/_formation-docker/docker-chap09.md
+      - 'Chaptitre 10': _projects/_formation-docker/docker-chap10.md
+      - 'Chaptitre 11': _projects/_formation-docker/docker-chap11.md
+      - 'Chaptitre 12': _projects/_formation-docker/docker-chap12.md
+    - 'Formation Git': 
+      - 'Chaptitre 1': _projects/_formation-git/git-chap01.md
+      - 'Chaptitre 2': _projects/_formation-git/git-chap02.md
+      - 'Chaptitre 3': _projects/_formation-git/git-chap03.md
+      - 'Chaptitre 4': _projects/_formation-git/git-chap04.md
+      - 'Chaptitre 5': _projects/_formation-git/git-chap05.md
+      - 'Chaptitre 6': _projects/_formation-git/git-chap06.md
+      - 'Chaptitre 7': _projects/_formation-git/git-chap07.md
+      - 'Chaptitre 8': _projects/_formation-git/git-chap08.md
+      - 'Chaptitre 9': _projects/_formation-git/git-chap09.md
+    - 'Formation Github Actions': 
+      - 'Chaptitre 1': _projects/_formation-github-actions/github-actions-chap01.md
+      - 'Chaptitre 2': _projects/_formation-github-actions/github-actions-chap02.md
+      - 'Chaptitre 3': _projects/_formation-github-actions/github-actions-chap03.md
+      - 'Chaptitre 4': _projects/_formation-github-actions/github-actions-chap04.md
+      - 'Chaptitre 5': _projects/_formation-github-actions/github-actions-chap05.md
+      - 'Chaptitre 6': _projects/_formation-github-actions/github-actions-chap06.md
+      - 'Chaptitre 7': _projects/_formation-github-actions/github-actions-chap07.md
+      - 'Chaptitre 8': _projects/_formation-github-actions/github-actions-chap08.md
+    - 'Formation Gitlab CI/CD': 
+      - 'Chaptitre 1': _projects/_formation-gitlab-cicd/gitlab-cicd-chap01.md
+      - 'Chaptitre 2': _projects/_formation-gitlab-cicd/gitlab-cicd-chap02.md
+      - 'Chaptitre 3': _projects/_formation-gitlab-cicd/gitlab-cicd-chap03.md
+      - 'Chaptitre 4': _projects/_formation-gitlab-cicd/gitlab-cicd-chap04.md
+      - 'Chaptitre 5': _projects/_formation-gitlab-cicd/gitlab-cicd-chap05.md
+      - 'Chaptitre 6': _projects/_formation-gitlab-cicd/gitlab-cicd-chap06.md
+      - 'Chaptitre 7': _projects/_formation-gitlab-cicd/gitlab-cicd-chap07.md
+
   - Blog 📑 :
     - blog/index.md
     - blog/author/team.md
