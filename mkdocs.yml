@@ -1,0 +1,333 @@
+# Default http port (by default 8000)
+dev_addr: 0.0.0.0:9000
+
+# Project information
+site_name: GHOST IN THE CLOUD # 👈 Material for MkDocs
+site_url: https://ndu69110.github.io/docs # 👈 https://squidfunk.github.io/mkdocs-material/
+site_author: 'ndu69110'
+site_description: >-
+  Write your documentation in Markdown and create a professional static site in
+  minutes – searchable, customizable, in 60+ languages, for all devices
+copyright: Copyright &copy; 2025 | Built using MkDocs, Material for MkDocs and PyMdown Extensions <br> Hosted with ❤️ in Github Pages # 👈 copyright: Copyright &copy; 2016 - 2025 Martin Donath
+docs_dir: docs/
+
+# --- # # 👈👈👈👈👈👈 HERE OK
+
+# Repository
+repo_name: github.com/ndu69110 # 👈 squidfunk/mkdocs-material
+repo_url: https://github.com/ndu69110 # 👈 https://github.com/squidfunk/mkdocs-material
+theme:
+  icon:
+    repo: fontawesome/brands/github
+edit_uri: /ndu69110/site/blob/main/docs # 👈 If you set it to "" (empty string), the edit links are disabled.
+
+# --- # # 👈👈👈👈👈👈 HERE OK
+
+# Configuration
+theme:
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: logo/logo.webp
+  favicon: logo/logo.webp # 👈 assets/favicon.png
+  name: material
+  language: fr
+  color_mode: dark
+  custom_dir: material/overrides
+  #logo: logo/logo.webp # 👈👈👈👈👈👈 HERE OK
+  palette:
+    - media: "(prefers-color-scheme)"
+      ##toggle:
+        ##icon: material/link
+        ##name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      ##toggle:
+        ##icon: material/toggle-switch
+        ##name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference # 👈👈👈👈👈👈 HERE OK
+  #!palette: 
+    # Palette toggle for dark mode
+    #!- scheme: slate
+    ##  toggle:
+    ##    icon: material/weather-sunny        # 👈 default: material/brightness-7 
+    ##    name: Switch to light mode
+    # Palette toggle for light mode
+    ##- scheme: default
+    ##  toggle:
+    ##    icon: material/weather-night        # 👈 default: material/brightness-4
+    ##    name: Switch to dark mode  
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select # 👈 default: commented
+    - content.footnote.tooltips # 👈 default: commented
+    - content.tabs.link # 👈 default: commented
+    - content.tooltips
+    - header.autohide # 👈 default: commented
+    #- navigation.expand # 👈 default: commented    # 👈 commented on 11/29/2025
+
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant # 👈 default: commented
+    - navigation.instant.prefetch # 👈 default: commented
+    - navigation.instant.progress # 👈 default: commented
+    - navigation.prune
+      - navigation.sections   # 👈 commented on 11/29/2025
+    - navigation.tabs
+    - navigation.tabs.sticky # 👈 default: commented
+      #- navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate # 👈 default: commented # 👈👈👈👈👈👈 HERE OK
+    - header.hide_repo_revision               # 👈 empêche l’affichage du numéro ou texte sous le nom
+    - navigation.instant.preview
+    - navigation.path
+    - toc.sections
+    - search.related
+
+# --- #
+
+# Plugins
+plugins:
+  #- projects
+  #- optimize
+  #- offline
+  #- privacy
+  - open-in-new-tab:
+      add_icon: true
+  - blog:
+      archive: true
+      archive_date_format: MMMM yyyy
+      enabled: true                           # 👈 if false: hide the blog
+      blog_toc: true                          # 👈 if false: hide the blog TOC
+      post_date_format: full
+      post_slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+      post_url_format: "{categories}/{slug}"
+      post_url_max_categories: 2
+      post_readtime: true                     # 👈 if false: hide the read time
+      categories: true                        # 👈 if false: hide the categories
+      categories_name: Categories
+      authors: true                           # 👈 if false: hide the authors
+      draft: true
+      draft_if_future_date: true
+      pagination_per_page: 5 # 👈👈👈👈👈👈 HERE OK
+  - search:
+      enabled: true # 👈 Added                # 👈 if false: hide the search bar
+      lang: fr # 👈 Added
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+      pipeline: # 👈 Added
+        - stemmer # 👈 Added
+        - stopWordFilter # 👈 Added
+        - trimmer # 👈 Added
+  - minify:
+      minify_html: true # 👈👈👈👈👈👈 HERE OK
+      minify_js: true
+      minify_css: true
+  - tags: # 👈 added                           # 👈 Material built-in plugin
+      tags_slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+      tags_slugify_separator: _
+      tags_slugify_format: "tag:{slug}"
+      tags_sort_by: !!python/name:material.plugins.tags.tag_name_casefold
+      tags_sort_reverse: true
+      tags_name_property: tags
+      tags_name_variable: tags
+      listings_sort_by: !!python/name:material.plugins.tags.item_title
+      listings_sort_reverse: false            # 👈 if false: show the tags in the correct order
+      tags_sort_by: !!python/name:material.plugins.tags.tag_name_casefold
+      tags_sort_reverse: true
+      #listings_directive: $tags              # 👈 hide tags if not commmented
+
+# --- # # 👈👈👈👈👈👈 HERE OK
+
+# Hooks
+hooks:
+  - hooks/socialmedia.py
+  - material/overrides/hooks/shortcodes.py
+  - material/overrides/hooks/translations.py
+
+# --- # # 👈👈👈👈👈👈 HERE OK
+
+# Additional configuration
+extra:
+  consent:
+    actions:
+      - accept
+      - reject
+      - manage 
+  status:
+    new: Recently added
+    deprecated: Deprecated
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY # 👈👈👈👈👈👈 HERE OK
+  social:
+    - icon: 'simple/github' # 👈 fontawesome/brands/github
+      link: 'https://github.com/ndu69110' # 👈 https://github.com/squidfunk
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/nicolas-dupre-94b2a078/
+      name: nicolas dupre on Linkedin
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/ndu69110
+#    - icon: fontawesome/brands/coffee
+#      link: https://buymeacoffee.com/ndu69
+#      name: Buy me a coffee
+#  footer:
+#    <a href="https://buymeacoffee.com/ndu69" target="_blank">
+#      ☕ Buy me a coffee
+#    </a>
+  generator: false # 👈 if true : show auto footer "made with ..."
+
+# --- #
+
+# Extensions # 👈👈👈👈👈👈 HERE OK
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables # 👈👈👈👈👈👈 HERE OK
+  - toc: # 👈 got it 
+      permalink: "#" # 👈 got it but not same value
+      baselevel: 2
+      separator: "_"
+      title: SOMMAIRE                         # 👈 TOC name
+      permalink_title: Anchor link to this section for reference
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details # 👈👈👈👈👈👈 HERE OK
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      options:
+        custom_icons:
+          - material/overrides/.icons
+  - pymdownx.highlight:
+      anchor_linenums: true # 👈 got it 
+      use_pygments: true
+      pygments_lang_class: true # 👈 got it 
+      auto_title: true
+      linenums: true
+      linenums_style: pymdownx-inline
+      line_spans: __span # 👈 got it
+  - pymdownx.inlinehilite
+  - pymdownx.keys # 👈👈👈👈👈👈 HERE OK
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: ndu69110
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.blocks.caption
+  - markdown.extensions.toc:
+      permalink: true
+  - markdown.extensions.md_in_html
+  - markdown.extensions.meta
+  - markdown.extensions.attr_list
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.blocks.details
+  - pymdownx.blocks.tab:
+      alternate_style: true
+  - pymdownx.blocks.admonition:
+      types:
+        - note
+        - abstract
+        - info
+        - tip
+        - success
+        - question
+        - warning
+        - failure
+        - danger
+        - bug
+        - example
+        - quote
+        - download # 👈👈👈👈👈👈 HERE OK
+
+# --- #
+
+# Extra CSS
+extra_css:
+  - overrides/extra.css
+
+extra_javascript:
+  - javascripts/rename-code-title.js
+
+# --- # # 👈👈👈👈👈👈 HERE OK
+
+#plugins:
+#  - search
+
+# Needed for the mkdocs-merge plugin.
+# mkdocs-merge will merge the navigation of all sites in the central repository.
+nav:
+  - Accueil 🏠 : index.md
+
+  - "Qui suis-je ? 👋" : _whoami/whoami.md
+
+  - Gestion du site ⚙️ : _gestionsite/gestionsite.md
+
+  - 'Projets':
+    - 'Introduction': _projects/introduction/introduction.md
+    - 'Sommaire': _projects/sommaire/sommaire.md
+    - 'Formation Azure': 
+      - 'Chapter 1': _projects/formation-azure/chapitre01/azure-chap1.md
+      - 'Chapter 2': _projects/formation-azure/chapitre02/azure-chap2.md
+      - 'Chapter 2': _projects/formation-azure/chapitre03/azure-chap3.md
+    - 'Formation Docker': 
+      - 'Chapter 1': _projects/formation-docker/chapitre01/docker-chap01.md
+      - 'Chapter 2': _projects/formation-docker/chapitre02/docker-chap02.md
+  
+  - Blog 📑 :
+    - blog/index.md
+    - blog/author/team.md
+
+  - Tags 🔗 : tags.md          # this will point to the generated page
+
+  - Contact ✉️ : _contact/contact.md
+
+  - "Soutenez mon projet 🚀": _buymeacoffee/buymeacoffee.md

@@ -1,0 +1,31 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% extends "main.html" %}
+{% block tabs %}
+  {{ super() }}
+  <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__image">
+          <img src="assets/images/illustration.png" alt="" width="1659" height="1200" draggable="false">
+        </div>
+        <div class="mdx-hero__content">
+          <h1>☁️ Bienvenue dans mon monde IT !</h1>
+          <p>
+          Ici, on parle cloud, innovation et passion tech. 🚀
+          Je partage mes découvertes, mes tests et mes coups de cœur autour de l’informatique et du cloud computing.
+          Si toi aussi tu aimes comprendre, expérimenter et apprendre en continu, tu es au bon endroit.
+          Prêt à explorer le cloud autrement ? 🌩️
+          </p>
+          <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
+            Je me présente d'abord !
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}
