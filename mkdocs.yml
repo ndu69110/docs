@@ -1,5 +1,9 @@
+# --- #
+
 # Default http port (by default 8000)
 dev_addr: 0.0.0.0:9000
+
+# --- #
 
 # Project information
 site_name: GHOST IN THE CLOUD # 👈 Material for MkDocs
@@ -11,7 +15,7 @@ site_description: >-
 copyright: Copyright &copy; 2025 | Built using MkDocs, Material for MkDocs and PyMdown Extensions <br> Hosted with ❤️ in Github Pages # 👈 copyright: Copyright &copy; 2016 - 2025 Martin Donath
 docs_dir: docs/
 
-# --- # # 👈👈👈👈👈👈 HERE OK
+# --- #
 
 # Repository
 repo_name: github.com/ndu69110 # 👈 squidfunk/mkdocs-material
@@ -21,7 +25,7 @@ theme:
     repo: fontawesome/brands/github
 edit_uri: /ndu69110/site/blob/main/docs # 👈 If you set it to "" (empty string), the edit links are disabled.
 
-# --- # # 👈👈👈👈👈👈 HERE OK
+# --- #
 
 # Configuration
 theme:
@@ -34,7 +38,7 @@ theme:
   language: fr
   color_mode: dark
   custom_dir: material/overrides
-  #logo: logo/logo.webp # 👈👈👈👈👈👈 HERE OK
+  #logo: logo/logo.webp
   palette:
     - media: "(prefers-color-scheme)"
       ##toggle:
@@ -53,7 +57,7 @@ theme:
       accent: indigo
       toggle:
         icon: material/toggle-switch-off
-        name: Switch to system preference # 👈👈👈👈👈👈 HERE OK
+        name: Switch to system preference
   #!palette: 
     # Palette toggle for dark mode
     #!- scheme: slate
@@ -92,7 +96,7 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
-    - toc.integrate # 👈 default: commented # 👈👈👈👈👈👈 HERE OK
+    - toc.integrate # 👈 default: commented
     - header.hide_repo_revision               # 👈 empêche l’affichage du numéro ou texte sous le nom
     - navigation.instant.preview
     - navigation.path
@@ -126,7 +130,7 @@ plugins:
       authors: true                           # 👈 if false: hide the authors
       draft: true
       draft_if_future_date: true
-      pagination_per_page: 5 # 👈👈👈👈👈👈 HERE OK
+      pagination_per_page: 5
   - search:
       enabled: true # 👈 Added                # 👈 if false: hide the search bar
       lang: fr # 👈 Added
@@ -136,7 +140,7 @@ plugins:
         - stopWordFilter # 👈 Added
         - trimmer # 👈 Added
   - minify:
-      minify_html: true # 👈👈👈👈👈👈 HERE OK
+      minify_html: true
       minify_js: true
       minify_css: true
   - tags: # 👈 added                           # 👈 Material built-in plugin
@@ -155,7 +159,7 @@ plugins:
       tags_sort_reverse: true
       #listings_directive: $tags              # 👈 hide tags if not commmented
 
-# --- # # 👈👈👈👈👈👈 HERE OK
+# --- #
 
 # Hooks
 hooks:
@@ -163,7 +167,7 @@ hooks:
   - material/overrides/hooks/shortcodes.py
   - material/overrides/hooks/translations.py
 
-# --- # # 👈👈👈👈👈👈 HERE OK
+# --- #
 
 # Additional configuration
 extra:
@@ -177,7 +181,7 @@ extra:
     deprecated: Deprecated
   analytics:
     provider: google
-    property: !ENV GOOGLE_ANALYTICS_KEY # 👈👈👈👈👈👈 HERE OK
+    property: !ENV GOOGLE_ANALYTICS_KEY
   social:
     - icon: 'simple/github' # 👈 fontawesome/brands/github
       link: 'https://github.com/ndu69110' # 👈 https://github.com/squidfunk
@@ -197,7 +201,7 @@ extra:
 
 # --- #
 
-# Extensions # 👈👈👈👈👈👈 HERE OK
+# Extensions
 markdown_extensions:
   - abbr
   - admonition
@@ -205,7 +209,7 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
-  - tables # 👈👈👈👈👈👈 HERE OK
+  - tables
   - toc: # 👈 got it 
       permalink: "#" # 👈 got it but not same value
       baselevel: 2
@@ -221,7 +225,7 @@ markdown_extensions:
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
-  - pymdownx.details # 👈👈👈👈👈👈 HERE OK
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
       emoji_index: !!python/name:material.extensions.emoji.twemoji
@@ -237,7 +241,7 @@ markdown_extensions:
       linenums_style: pymdownx-inline
       line_spans: __span # 👈 got it
   - pymdownx.inlinehilite
-  - pymdownx.keys # 👈👈👈👈👈👈 HERE OK
+  - pymdownx.keys
   - pymdownx.magiclink:
       normalize_issue_symbols: true
       repo_url_shorthand: true
@@ -286,7 +290,7 @@ markdown_extensions:
         - bug
         - example
         - quote
-        - download # 👈👈👈👈👈👈 HERE OK
+        - download
 
 # --- #
 
@@ -297,10 +301,7 @@ extra_css:
 extra_javascript:
   - javascripts/rename-code-title.js
 
-# --- # # 👈👈👈👈👈👈 HERE OK
-
-#plugins:
-#  - search
+# --- #
 
 # Needed for the mkdocs-merge plugin.
 # mkdocs-merge will merge the navigation of all sites in the central repository.
