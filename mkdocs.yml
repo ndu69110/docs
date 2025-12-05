@@ -312,7 +312,7 @@ nav:
 
   - Gestion du site ⚙️ : _gestionsite/gestionsite.md
 
-  - 'Projets':
+  - 'Formations':
     - 'Introduction': _projects/introduction/introduction.md
     - 'Sommaire': _projects/sommaire/sommaire.md
     - 'Formation Azure': 
