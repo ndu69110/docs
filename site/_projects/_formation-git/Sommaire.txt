@@ -1,0 +1,81 @@
+        Chapitre 1 : Introduction à Git
+        Sommaire
+        - Présentation de Git
+        - Qu'est ce qu'un système de contrôle de version ?
+        - Configuration initiale de Git
+        - A l'abordage !
+        - Présentation de bash et commandes Linux
+        - Environnement
+
+        Chapitre 2 : Les bases de Git
+        Sommaire
+        - Créer des sauvegardes avec git commit
+        - Ignorer des fichiers et des dossiers
+        - Afficher les différences entre répertoire, index et sauvegarde avec git diff
+        - Etat d'un fichier et fonctionnement de l'index
+        - Le suivi des fichiers
+        - Supprimer un fichier ou un dossier
+
+        Chapitre 3 : Inspecter un répertoire et des fichiers
+        Sommaire
+        - Visualiser l'historique d'un projet Git avec git log
+        - Visualiser l'historique d'un fichier avec git blame
+        - L'onglet Source Control de VS Code
+        - L'extension Git lens
+
+        Chapitre 4 : Annuler des modifications
+        Sommaire
+        - git clean
+        - git revert
+        - git checkout
+        - Branche master et HEAD
+        - git reset
+
+        Chapitre 5 : Les branches
+        Sommaire
+        - Résoudre des conflits de fusion
+        - Lister et créer des branches avec git branch
+        - Fusionner des branches avec git merge
+        - Basculer entre les branches avec git checkout
+        - Visualiser les branches
+        - Introduction aux branches
+        - Remiser ses changements avec git stash
+
+        Chapitre 6 : Modifier des commits
+        Sommaire
+        - Introduction et git commit --amend
+        - Le reflog
+        - git rebase
+        - Le rebasage interactif
+        - Utilisation de git merge --squash
+
+        Chapitre 7 : Répertoire distant et Gitlab
+        Sommaire
+        - Liens entre branches locales et branches distantes
+        - Cloner et gérer un répertoire distant
+        - Mettre à jour le dépôt distant avec git push
+        - Introduction aux répertoires distants et à Gitlab
+        - Mise à jour des pointeurs distants avec git fetch
+        - Le raccourci git pull
+        - Répertoire distant et configurations
+        - Optimisation et nettoyage
+        - Utiliser le protocole SSH avec Git et Gitlab
+
+        Chapitre 8 : La gestion de projets avec Git et Gitlab
+        Sommaire
+        - Les tickets Gitlab
+        - Exemple de GitFlow
+        - Introduction aux fonctionnalités Gitlab
+        - Les demandes de fusion (merge requests)
+        - Introduction au GitFlow
+        - Les Milestones Gitlab
+        - La librairie GitFlow
+        - Les tags
+
+        Chapitre 9 : Notions avancées Git
+        Sommaire
+        - Introduction aux hooks
+        - Librairies pour les hooks
+        - Les alias Git
+        - Git LFS
+        - Utilisation de git cherry-pick

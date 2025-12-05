@@ -107,8 +107,8 @@ theme:
 
 # Plugins
 plugins:
-  #- projects
-  #- optimize
+  - projects
+  - optimize
   #- offline
   #- privacy
   - open-in-new-tab:
@@ -330,6 +330,16 @@ nav:
       - 'Chaptitre 12': _projects/_formation-azure/azure-chap12.md
       - 'Chaptitre 13': _projects/_formation-azure/azure-chap13.md
       - 'Chaptitre 14': _projects/_formation-azure/azure-chap14.md
+    - 'Formation Azure Devops': 
+      - 'Chaptitre 1': _projects/_formation-azure-devops/azure-devops-chap01.md
+      - 'Chaptitre 2': _projects/_formation-azure-devops/azure-devops-chap02.md
+      - 'Chaptitre 3': _projects/_formation-azure-devops/azure-devops-chap03.md
+      - 'Chaptitre 4': _projects/_formation-azure-devops/azure-devops-chap04.md
+      - 'Chaptitre 5': _projects/_formation-azure-devops/azure-devops-chap05.md
+      - 'Chaptitre 6': _projects/_formation-azure-devops/azure-devops-chap06.md
+      - 'Chaptitre 7': _projects/_formation-azure-devops/azure-devops-chap07.md
+      - 'Chaptitre 8': _projects/_formation-azure-devops/azure-devops-chap08.md
+      - 'Chaptitre 9': _projects/_formation-azure-devops/azure-devops-chap09.md   
     - 'Formation Bash': 
       - 'Chaptitre 1': _projects/_formation-bash/bash-chap01.md
       - 'Chaptitre 2': _projects/_formation-bash/bash-chap02.md
@@ -384,6 +394,24 @@ nav:
       - 'Chaptitre 5': _projects/_formation-gitlab-cicd/gitlab-cicd-chap05.md
       - 'Chaptitre 6': _projects/_formation-gitlab-cicd/gitlab-cicd-chap06.md
       - 'Chaptitre 7': _projects/_formation-gitlab-cicd/gitlab-cicd-chap07.md
+    - 'Formation NGINX': 
+      - 'Chaptitre 1': _projects/_formation-nginx/nginx-chap01.md
+      - 'Chaptitre 2': _projects/_formation-nginx/nginx-chap02.md
+      - 'Chaptitre 3': _projects/_formation-nginx/nginx-chap03.md
+      - 'Chaptitre 4': _projects/_formation-nginx/nginx-chap04.md
+      - 'Chaptitre 5': _projects/_formation-nginx/nginx-chap05.md
+      - 'Chaptitre 6': _projects/_formation-nginx/nginx-chap06.md
+      - 'Chaptitre 7': _projects/_formation-nginx/nginx-chap07.md
+      - 'Chaptitre 8': _projects/_formation-nginx/nginx-chap08.md
+      - 'Chaptitre 9': _projects/_formation-nginx/nginx-chap09.md
+      - 'Chaptitre 10': _projects/_formation-nginx/nginx-chap10.md
+      - 'Chaptitre 11': _projects/_formation-nginx/nginx-chap11.md
+      - 'Chaptitre 12': _projects/_formation-nginx/nginx-chap12.md
+      - 'Chaptitre 13': _projects/_formation-nginx/nginx-chap13.md
+      - 'Chaptitre 14': _projects/_formation-nginx/nginx-chap14.md
+      - 'Chaptitre 15': _projects/_formation-nginx/nginx-chap15.md
+      - 'Chaptitre 16': _projects/_formation-nginx/nginx-chap16.md
+      - 'Chaptitre 17': _projects/_formation-nginx/nginx-chap17.md
 
   - Blog 📑 :
     - blog/index.md

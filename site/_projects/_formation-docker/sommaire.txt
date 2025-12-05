@@ -1,0 +1,112 @@
+        Chapitre 1 : Introduction à Docker
+        Sommaire
+        - A quoi sert Docker ?
+        - Comment fonctionne Docker
+        - A l'abordage !
+        - Installation de Docker sur Linux et MacOs
+        - L’écosystème Docker
+        - Installation de Docker sur Windows
+
+        Chapitre 2 : Découvrir les bases de Docker
+        Sommaire
+        - Obtenir de l'aide, lister et supprimer des images et des conteneurs
+        - Docker pause, unpause, rename et exec
+        - Le cycle de vie d'un conteneur
+        - Copier des fichiers et inspecter un conteneur
+        - Récapitulatif et approfondissement
+        - Premier conteneur
+        - Lancer un conteneur
+
+        Chapitre 3 : Créer une image avec un Dockerfile
+        Sommaire
+        - Docker commit, logs, tags, history
+        - Les instructions CMD et ENTRYPOINT
+        - Les étapes de la construction d'une image
+        - Les instructions FROM, WORKDIR, RUN, COPY et ADD
+        - Introduction au Dockerfile
+        - Les instructions ARG, ENV, LABEL et la commande inspect
+
+        Chapitre 4 : Trouver et partager des images Docker
+        Sommaire
+        - Présentation de Docker Hub
+        - Les commandes export et import
+        - Publier ses images sur Docker Hub
+        - Les commandes save et load
+
+        Chapitre 5 : Créer une image Docker pour un serveur Node
+        Sommaire
+        - Introduction au projet
+        - Création du Dockerfile
+        - Optimisation et .dockerignore
+        - Publier et exposer des ports
+
+        Chapitre 6 : Persister des données avec Docker
+        Sommaire
+        - Utiliser TMPFS
+        - Les bind mounts
+        - Introduction à la persistance
+        - Les volumes
+        - Utiliser un volume pour une base de données
+        - Partager des volumes entre des conteneurs et effectuer des sauvegardes
+        - Utilisation d'un bind mount dans notre exemple
+
+        Chapitre 7 : Les réseaux Docker
+        Sommaire
+        - Le réseau host
+        - Connecter un serveur Node.js et une bdd MongoDB
+        - Créer ses réseaux bridge
+        - Configuration du serveur
+        - Introduction aux réseaux
+        - Le réseau bridge
+
+        Chapitre 8 : Utiliser Docker Compose
+        Sommaire
+        - Les autres commandes de docker-compose
+        - Introduction à Docker compose
+        - Utilisation d'images personnalisées avec Docker Compose
+        - Utiliser des réseaux avec Docker Compose
+        - Utiliser des variables d'environnement avec Docker Compose
+        - Première utilisation de Docker Compose
+        - Les configurations depends_on et restart
+        - Mettre en place le service pour le serveur
+        - Utiliser Docker Compose avec notre exemple
+        - Les ports et les volumes avec Docker Compose
+
+        Chapitre 9 : Dockerfile et Docker Compose pour une application client
+        Sommaire
+        - Mise en place du projet d'application cliente
+        - Mise en place de l'environnement de production
+        - Mise en place de Docker Compose
+        - Lancer les tests pendant le développement
+        - Mise en place du live reload
+
+        Chapitre 10 : Utiliser Docker Compose avec plusieurs services
+        Sommaire
+        - Mise en place de la configuration client
+        - Mise en place de la configuration de production
+        - Mise en place de l'API Node.js
+        - Introduction à l'architecture du projet
+        - Mise en place du reverse proxy nginx
+        - Fin de la mise en place de l'env de production
+        - Mise en place du service pour la base de données
+
+        Chapitre 11 : Mise en production avec Docker et Docker compose
+        Sommaire
+        - Mise du projet sur Gitlab
+        - Lancement de la production
+        - Renouvellement automatique des certificats TLS
+        - Utilisation de pm2
+        - Création du VPS
+        - Introduction à la mise en production
+        - Mise en place du certificat TLS
+        - Environnement de production
+
+        Chapitre 12 : Docker avec PHP et Symfony
+        Sommaire
+        - Mise en place du service PHP avec Symfony
+        - Introduction aux environnements PHP
+        - Mise en place des services PHP-FPM et Webpack Encore
+        - Mise en production
+        - Mise en place du service MySQL
+        - Mise en place du service Node.js
+        - Mise en place du service NGINX

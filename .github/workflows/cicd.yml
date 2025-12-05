@@ -27,6 +27,7 @@ jobs:
           pip install mkdocs-open-in-new-tab
           pip install mkdocs-minify-plugin
           pip install mkdocs-merge
+          pip install mkdocs-material[imaging]
 
       - name: Build MkDocs site
         run: |

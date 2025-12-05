@@ -1,0 +1,88 @@
+/* Increase logo size in the header OK */
+.md-header__button.md-logo img {
+  height: 80px !important; /* default is ~24px */
+  width: auto !important;  /* keep aspect ratio */
+}
+
+/* Add Back to top when at the bottom OK */
+.md-sidebar__inner .md-nav__link[href="#top"] {
+  font-size: 0.85em;
+  font-weight: normal;
+}
+
+/* Hide the permalink symbol OK */
+.headerlink, .permalink, .md-header-link {
+  display: none !important;
+  pointer-events: none;
+}
+
+/* Always keep the footer visible at the bottom of the screen OK */
+#.md-footer {
+#  position: fixed;
+#  bottom: 0;
+#  left: 0;
+#  width: 100%;
+#  z-index: 1000;
+#  background: var(--md-footer-bg-color, #fff); /* use your theme color */
+#  box-shadow: 0 -2px 4px rgba(0,0,0,0.1);      /* optional styling */
+#}
+
+#/* Add padding to the main content so text isn't hidden behind the footer */
+#.md-main {
+#  padding-bottom: 3rem; /* adjust to match footer height */
+#}
+
+/* Remove number under github link OK */
+.md-header__source .md-source__facts {
+    display: none;
+}
+
+/* Increase font size of top navigation categories in Material for MkDocs */
+  /* .md-tabs__link { */
+  /*     font-size: 2em !important; */
+  /* } */
+
+/* Set category text color to blue */
+.md-tabs__link {
+    color: #5d8adc !important;    /* Blue shade, you can use any color code */
+    font-size: 2em !important;  /* Keep your increased size */
+    font-weight: bold;
+    transition: color 0.2s;       /* Smooth color transition */
+}
+
+/* Change category text color to red on hover */
+.md-tabs__link:hover {
+    color: #FF4136 !important;    /* Red shade, you can use any color code */
+}
+
+/* Mac OS style code block wrapper */
+.md-typeset pre {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background-color: #1e1e1e; /* dark terminal background */
+  padding-top: 2.5em; /* space for header bar */
+  position: relative;
+  overflow-x: auto;
+}
+
+/* Mac OS window control buttons */
+.md-typeset pre::before {
+  content: '';
+  position: absolute;
+  top: 0.7em;
+  left: 1em;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ff5f57; /* red */
+  box-shadow:
+    20px 0 #febc2e, /* yellow */
+    40px 0 #28c940; /* green */
+}
+
+/* Optional: style the copy button to match macOS */
+.md-typeset .md-code-block__copy {
+  background: #2d2d2d;
+  border-radius: 4px;
+  color: #eee;
+}

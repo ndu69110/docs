@@ -1,0 +1,67 @@
+        Chapitre 1 : Introduction au CI/CD
+        Sommaire
+        - A l'abordage !
+        - Introduction au DevOps
+        - Qu'est-ce que l'intégration et la livraison continues ?
+        - Le langage YAML
+        - Mise en place de l'environnement
+
+        Chapitre 2 : Introduction à Gitlab CI/CD
+        Sommaire
+        - Introduction à Gitlab
+        - Débuter avec Gitlab CI / CD
+        - Premier pipeline
+        - Onglets Code et Build
+        - Plus de détails sur les pipelines
+
+        Chapitre 3 : Principales notions Gitlab CI/CD
+        Sommaire
+        - Les étapes (stages)
+        - Les scripts
+        - Les environnements
+        - Gestion des variables
+        - Contrôle du flux d'exécution
+        - Filtrage et conditions
+        - Utiliser des images
+
+        Chapitre 4 : Notions plus avancées sur Gitlab CI/CD
+        Sommaire
+        - Comprendre la notion de default
+        - Gestion des artifacts et dependencies
+        - Utilisation du cache
+        - Mesurer le coverage du code
+        - Optimiser avec l'exécution en parallèle
+        - Composition avancée : include et template
+        - Composition : jobs cachés, <<* et extends
+        - Contrôle de l'héritage avec inherit
+
+        Chapitre 5 : Projet 1 - Gitlab CI/CD
+        Sommaire
+        - Introduction au projet
+        - Présentation du frontend et du backend
+        - Mise en place SSH pour le runner Gitlab
+        - Mise en place des jobs CI pour le backend
+        - Couverture du code backend
+        - Planification jobs frontend et refactorisation du cache
+        - Couverture du code frontend
+        - Exécution multi-navigateurs
+        - Mise en place du job CD pour le deploiement backend
+        - Implémentation des jobs CI client
+
+        Chapitre 6 : Projet 2 - Gitlab CI/CD (Docker)
+        Sommaire
+        - Présentation du projet et Gitlab Container Registry
+        - Création des images et push manuel
+        - Construction des images dans un pipeline
+        - Tests des images avant de les push
+        - Tests e2e
+        - Deploy avec Docker Compose
+        - Environnement de staging
+
+        Chapitre 7 : Configurer ses runners avec Gitlab CI/CD
+        Sommaire
+        - Installer Gitlab runner
+        - Création d'un serveur VPS
+        - Introduction aux runners auto-gérés
+        - Utilisation des tags
+        - Construire des images dans l'exécuteur Docker

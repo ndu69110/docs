@@ -1,0 +1,69 @@
+        Chapitre 1 : Introduction au CI/CD
+        Sommaire
+        - A l'abordage !
+        - Introduction au DevOps
+        - Qu'est-ce que l'intégration et la livraison continues ?
+        - Le langage YAML
+        - Mise en place de l'environnement
+
+        Chapitre 2 : Introduction à Github Actions
+        Sommaire
+        - Vue d'ensemble des composants
+        - Premier exemple de workflow
+        - Première action
+        - Présentation de la plateforme Github
+
+        Chapitre 3 : Principales notions Github Actions
+        Sommaire
+        - Utilisation des actions
+        - Exemple approfondi d'une action : Checkout
+        - Les variables et les secrets
+        - Les contextes
+        - Les expressions et la propriété if
+        - Needs, outputs et les contextes steps et needs
+
+        Chapitre 4 : Github Actions - déclenchement, événements et commandes des workflows
+        Sommaire
+        - Déclenchement des workflows en détail
+        - Liste des événements
+        - Commandes de workflow
+        - run, shell, working-directory et defaults
+
+        Chapitre 5 : Github Actions - exécutions, optimisations et permissions des workflows
+        Sommaire
+        - Gestion des caches
+        - Matrices, fail-fast et stratégies de build
+        - Les permissions
+        - Environnements et déploiements
+        - Concurrence
+
+        Chapitre 6 : Github Actions - notions avancées
+        Sommaire
+        - Utiliser des conteneurs Docker
+        - Les services
+        - Les artéfacts
+        - Les résumés de jobs
+        - Sécurité : injection de scripts et utilisation d'actions tierces
+
+        Chapitre 7 : Projet 1 - Github Actions
+        Sommaire
+        - Présentation du projet
+        - Présentation du code et création du répertoire Github
+        - Mise en place SSH pour le runner Github
+        - Workflow pour le backend
+        - Couverture du code et badges
+        - Workflow pour le frontend
+        - Tests E2E
+        - Couverture du code E2E
+        - Exécution multi navigateurs
+
+        Chapitre 8 : Projet 2 - Github Actions
+        Sommaire
+        - Présentation du projet et Github Container Registry
+        - Création des images et push manuel
+        - Construction et push des images dans le workflow
+        - Tests des images avant le push
+        - Tests E2E
+        - Déploiement avec Docker Compose
+        - Environnements multiples : pré-prod / production
+        - Créer une action personnalisée
