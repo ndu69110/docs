@@ -13,17 +13,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Cache apt packages
+        uses: actions/cache@v4
         with:
-          python-version: '3.x'
-          node-version: '20'
-          
+          path: /var/cache/apt/archives
+          key: apt-${{ runner.os }}-${{ hashFiles('**/package.json') }}
+        
       - name: Install dependencies
         run: |
           sudo apt update
           sudo apt install -y pngquant libpng-dev
-          npm install sharp  # Si vous utilisez Sharp qui nécessite pngquant
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          
+      - name: Install dependencies
+        run: |
           pip install mkdocs
           pip install mkdocs-material
           pip install mkdocs-static-i18n
